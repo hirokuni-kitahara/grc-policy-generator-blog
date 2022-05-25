@@ -6,8 +6,8 @@ metadata:
 spec:
   destination:
     namespace: policy-generator-blog
-    # server: https://kubernetes.default.svc
-    server: https://api.ma4kmc5.openshiftv4test.com:6443
+    server: https://kubernetes.default.svc
+    # server: https://api.ma4kmc5.openshiftv4test.com:6443
   project: default
   source:
     path: kustomize
